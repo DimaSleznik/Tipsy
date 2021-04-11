@@ -1,0 +1,117 @@
+@font-face {
+    font-family: Pompadur; /* Имя шрифта */
+    src: url(foont.ttf); /* Путь к файлу со шрифтом */
+   }
+
+body{background-color: black;
+     font-family: Pompadur;
+     font-size: 1.5em; 
+      }
+input:hover{
+	cursor: pointer;
+}	  
+
+#main_block{
+	height: 850px;
+	border: 5px inset black;
+	display: flex;
+}
+#form{
+	display: flex;
+	flex-direction: column;
+
+}
+#menu{
+	overflow: auto;
+	background-color: white;
+	padding-top: 2%;
+}
+#menu>form>div{
+	padding-left: 10px;
+}
+#graph{
+background:url("img/bar.jpg");
+border-left: 10px solid black;
+}
+#form>div{margin:10px; margin-left:30px;}
+#form>div{border:5px solid black; border-radius: 5px;}
+.menu_flex{
+	flex: 0 0 30%;
+}
+.graph_flex{
+	border:1px solid black;
+	flex: 0 0 70%;
+}
+#gslass { height: 500px;
+         width: 400px;
+         background-color: white;
+         background-image: url(glass.png);
+         background-repeat: round;
+         margin-left: auto;
+         margin-right: auto;
+         margin-top: 12%;
+          }
+#start{
+	position: relative;
+	font-family: Pompadur;
+	color: white;
+	background-color: black;
+	font-size: 1.6em;
+	margin-top: 5%;
+	margin-left: 20%;
+	width: 60%;
+	height: 10%;
+	transition: .2s;
+}
+#start:hover{
+	background-color: #483D8B;
+	transform: translateY(5px);
+	width: 60%;
+}
+#form_name_2{
+	font-family: Pompadur;
+	color: white;
+	background-color: black;
+	font-size: 1.3em;
+}
+#form_name{
+	font-family: Pompadur;
+	color: white;
+	background-color: black;
+	font-size: 1.3em;
+}
+#combination{
+	font-family: Pompadur;
+	color: white;
+	background-color: black;
+	font-size: 1.3em;
+}
+h3{color:black;
+ margin-left: 5px;
+ }
+#cloud_text{
+	color:white;
+ margin-left: 5px;
+}
+text{color:red;}
+h2{margin-left: 5%;}
+audio{
+	opacity: 1%;
+    margin-top: 0px;
+    margin-left: 250px;
+
+}
+#cloud{
+	opacity: 80%;
+    font-family: Courier New;
+	font-size: 1.0em;
+	padding-top: 1px;
+	text-align: center;
+	border-radius: 25px;
+	border-bottom-left-radius: 0px;
+	margin-top: 300px;
+	margin-left: 335px;
+	width: 500px;
+	height: auto;
+	background-color: black;
+}

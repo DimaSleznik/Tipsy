@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Tipsy</title>
+   <link rel="shortcut icon" href="img/icon.png" type="image/png">
+</head>
+<link href="css_main.css" rel="stylesheet">
+<body>
+<div id = 'main_block'>
+	
+<div id = 'menu' class ='menu_flex'>
+	
+<form id='form'>
+	<div >
+     <label>Имя<input type="text"  id='name' ></label>
+     <input type="button" name="aa" onclick="get_name()" value="ввести имя" id = 'form_name' >
+ </div>
+ <div>
+     <label>Алкоголь <input type="text"  id='alco'></label>
+     <input type="button" name="aa" onclick="get_name_alco()" value="ввести " id = 'form_name_2' >
+     </div>
+<div id="alco_check">
+   <p>Из скольки сочетаний?</p>
+<p><input type="checkbox" name="option1" value="a1"  id='checkbox_1'>2<Br>
+   <input type="checkbox" name="option2" value="a2" id='checkbox_2'>3<Br>
+   <input type="checkbox" name="option3" value="a3" id='checkbox_3'>4<Br> 
+   <input type="checkbox" name="option4" value="a4" id='checkbox_4'>5<Br> 
+   <input type="checkbox" name="option5" value="a5" id='checkbox_5'>6</p>
+   <p><input type="button" value="Выбрать" onclick="check_alco()" id='combination'></p></div>
+   <input type="button" name="" value="Начать игру" id = 'start' onclick="start_game()">
+
+</form>
+
+</div>
+
+<div id = 'graph' class ='graph_flex'>
+  <div id="cloud"><h3 id ='cloud_text'>Провалы в памяти — бесплатный приз на дне каждой бутылки водки.</h3></div>
+  <audio src="mm.mp3" controls=""></audio>
+	
+</div>
+
+</div>
+
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
